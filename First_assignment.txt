@@ -9,19 +9,33 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 II. Answer the following question. What does this do?   
 
 1. ls [A-Z]*
+	- lists the files in the directory that only contain upper case letters
 2. cp *.sh /tmp
+	- copies a file from one location to a temporary directory
 3. man pwd
+	- shows the help page for the pwd command
 4. cd ~
+	- changes directory to the home page (~ = home)
 5. mkdir -p /test1/test2/test3 
+	- creates the directories test1, test2, and test3 if they do not already exist
 6. cp -r /tmp .
+	- copies a file in reverse from the temporary directory  
 7. ls | less
+	- lists the file in the directory and concatenates that with the less command, which prints the file on the screen
 8. head -n 24 test.txt » abc.txt
+	- outputs the first 24 lines of the test.txt and appends the output to the file abc.txt
 9. echo "aaa" > aaa.txt
+	- displays a line of text containing the string "aaa" of the test.txt file and redirecting the output to the file aaa.txt
 10. ps -u sallesina
+	- reports information of the current processes of the user sallesina
 11. top
+	- displays tasks
 12. ls | grep .sh | xargs mv /tmp
+	- lists the files in the directory, matches the strings in a file,  
 13. du -sk /home/* | sort -r -n | head -10
+	- summarizes the estimation of the disk usage of each file, recursively for directories, then sorts lines of the text files based off the reverse numerical values, and then outputs the first 10 lines of the file
 14. sort -r names.txt
+	- sorts the lines of the names.txt file in reverse
 
 **IMPORTANT** 
 To submit your answers you must do the following:
