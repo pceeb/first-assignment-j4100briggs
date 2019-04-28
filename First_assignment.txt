@@ -8,33 +8,33 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*
+1. ls [A-Z]* # Correct!
 	- lists the files in the directory that only contain upper case letters
-2. cp *.sh /tmp
+2. cp *.sh /tmp # Correct!
 	- copies a file from one location to a temporary directory
-3. man pwd
+3. man pwd # Correct!
 	- shows the help page for the pwd command
-4. cd ~
-	- changes directory to the home page (~ = home)
-5. mkdir -p /test1/test2/test3 
+4. cd ~ # Correct!
+	- changes directory to the home page (~ = home) # Actually ~ = $HOME 
+5. mkdir -p /test1/test2/test3 # Correct, and that is how -p is different from just mkdir. 
 	- creates the directories test1, test2, and test3 if they do not already exist
-6. cp -r /tmp .
+6. cp -r /tmp .# Correct!
 	- copies a file in reverse from the temporary directory  
-7. ls | less
+7. ls | less # Correct!
 	- lists the file in the directory and concatenates that with the less command, which prints the file on the screen
-8. head -n 24 test.txt » abc.txt
+8. head -n 24 test.txt » abc.txt # Correct!
 	- outputs the first 24 lines of the test.txt and appends the output to the file abc.txt
-9. echo "aaa" > aaa.txt
+9. echo "aaa" > aaa.txt # Correct!
 	- displays a line of text containing the string "aaa" of the test.txt file and redirecting the output to the file aaa.txt
-10. ps -u sallesina
+10. ps -u sallesina # Correct! Why don't you try it with your username in Hoffman
 	- reports information of the current processes of the user sallesina
-11. top
+11. top # Correct! I will recommend to explore htop
 	- displays tasks
-12. ls | grep .sh | xargs mv /tmp
+12. ls | grep .sh | xargs mv /tmp # You could be more specific and say that `grep` matches .sh files. Also, what is `xargs` doing?
 	- lists the files in the directory, matches the strings in a file,  
-13. du -sk /home/* | sort -r -n | head -10
+13. du -sk /home/* | sort -r -n | head -10 # Correct!
 	- summarizes the estimation of the disk usage of each file, recursively for directories, then sorts lines of the text files based off the reverse numerical values, and then outputs the first 10 lines of the file
-14. sort -r names.txt
+14. sort -r names.txt # Correct!
 	- sorts the lines of the names.txt file in reverse
 
 **IMPORTANT** 
