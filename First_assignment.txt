@@ -18,7 +18,7 @@ II. Answer the following question. What does this do?
 	- changes directory to the home page (~ = home) # Actually ~ = $HOME 
 5. mkdir -p /test1/test2/test3 # Correct, and that is how -p is different from just mkdir. 
 	- creates the directories test1, test2, and test3 if they do not already exist
-6. cp -r /tmp .# Correct!
+6. cp -r /tmp .# Correct! But -r means recursively NOT reverse
 	- copies a file in reverse from the temporary directory  
 7. ls | less # Correct!
 	- lists the file in the directory and concatenates that with the less command, which prints the file on the screen
